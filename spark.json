@@ -1,7 +1,7 @@
 {
-  "name": "u8glib-particle",
+  "name": "u8glib",
   "author": "Steven 'Sauce' Osman <sosman@terratron.com>",
   "license": "bsd",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Port of u8glib for Particle devices."
 }
