@@ -1,4 +1,4 @@
-#include "U8glib/U8glib.h"
+#include "Sauce-U8glib/Sauce-U8glib.h"
 
 SYSTEM_MODE(AUTOMATIC);
 
@@ -82,7 +82,7 @@ void loop()
 	u8g.firstPage();
 	do
 	{
-		draw(pU8GLIB);
+		draw(&u8g);
 	}
 	while (u8g.nextPage());
 }
